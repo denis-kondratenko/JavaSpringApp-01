@@ -11,7 +11,7 @@ import javax.annotation.PreDestroy;
 import java.util.ArrayList;
 import java.util.List;
 
-@Component("musicPlayerBean")
+//@Component("musicPlayerBean")
 public class MusicPlayer {
     //private Music music;
     //@Autowired
@@ -43,7 +43,7 @@ public class MusicPlayer {
     }
 
     //Inversion of control
-    @Autowired
+    //@Autowired
 //    public MusicPlayer(@Qualifier("rockMusicBean") List<Music> musicList) {
     public MusicPlayer( List<Music> musicList) {
         this.musicList = musicList;
