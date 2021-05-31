@@ -44,7 +44,8 @@ public class MusicPlayer {
 
     //Inversion of control
     @Autowired
-    public MusicPlayer(@Qualifier("rockMusicBean") List<Music> musicList) {
+//    public MusicPlayer(@Qualifier("rockMusicBean") List<Music> musicList) {
+    public MusicPlayer( List<Music> musicList) {
         this.musicList = musicList;
     }
 
